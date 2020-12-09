@@ -18,7 +18,7 @@ Logistics company DPWorld charges customers for shipping goods. Charges are calc
 URL to generate (Authorization) Bearer token for API calls: <br/>
 https://dev-9482693.okta.com/oauth2/default/v1/authorize?client_id=0oa22bqmtbbV6UnM35d6&redirect_uri=https%3A%2F%2Foidcdebugger.com%2Fdebug&scope=openid&response_type=token&response_mode=form_post&state=somethig&nonce=0thq1jzjcw3g
 
-<br/> Okta login creds will be shared seperately via email.
+Okta login creds will be shared seperately via email.
 
 ## RMS API Details:
 
