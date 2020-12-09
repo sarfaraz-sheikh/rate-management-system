@@ -1,8 +1,9 @@
 # Rate Management System
 
-Rate Management System
+## Brief overview:<br/>
+Logistics company DPWorld charges customers for shipping goods. Charges are calculated based on rate amt and surcharge amt.
 
-# Features:
+## Features:
 1- Ouath2 Authentication using Okta<br/>
 2- Spring Hystrix<br/> 
 3- JUnit (Mockito, MockMvc, Mocks, Juniper) <br/>
@@ -19,14 +20,13 @@ https://dev-9482693.okta.com/oauth2/default/v1/authorize?client_id=0oa22bqmtbbV6
 
 <br/> Okta login creds will be shared seperately via email.
 
-# RMS API Details:
+## RMS API Details:
 
-HEADERS:<br/>
+###### HEADERS:<br/>
 Authorization -> Bearer [oauth-token]<br/>
 Content-Type -> application/json<br/>
 
-1- Fetch Rate API (GET):
-
+###### 1- Fetch Rate API (GET):<br/>
 http://localhost:8080/api/v1/rms/rate/1 <br/>
 Response:
 {
@@ -42,8 +42,7 @@ Response:
     }
 }
 
-2- Add Rate API (POST):
-
+###### 2- Add Rate API (POST):<br/>
 http://localhost:8080/api/v1/rms/rate <br/>
 Request Body:
 {
@@ -60,8 +59,7 @@ Respone:
     "amount": 5000
 }
 
-3- Update Rate API (PUT):
-
+###### 3- Update Rate API (PUT):<br/>
 http://localhost:8080/api/v1/rms/rate <br/>
 Request Body:
 {
@@ -79,12 +77,10 @@ Respone:
     "amount": 7000
 }
 
-4- Delete Rate API (DELETE):
-
+###### 4- Delete Rate API (DELETE):<br/>
 http://localhost:8080/api/v1/rms/rate/4 <br/>
 
-5- Fetch All Rates (GET)
-
+###### 5- Fetch All Rates (GET)<br/>
 http://localhost:8080/api/v1/rms/rates <br/>
 
 Response:
