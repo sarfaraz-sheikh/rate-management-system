@@ -22,7 +22,9 @@ Okta login creds will be shared seperately via email.
 # RMS API Details:
 
 HEADERS:
+
 Authorization -> Bearer [oauth-token]
+
 Content-Type -> application/json
 
 1- Fetch Rate API (GET):
