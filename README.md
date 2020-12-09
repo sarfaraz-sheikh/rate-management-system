@@ -22,7 +22,7 @@ https://dev-9482693.okta.com/oauth2/default/v1/authorize?client_id=0oa22bqmtbbV6
 
 ## RMS API Details:
 
-###### HEADERS:<br/>
+###### HEADERS:
 Authorization -> Bearer [oauth-token]<br/>
 Content-Type -> application/json<br/>
 
