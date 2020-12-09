@@ -26,7 +26,7 @@ Okta login creds will be shared seperately via email.
 Authorization -> Bearer [oauth-token]<br/>
 Content-Type -> application/json<br/>
 
-###### 1- Fetch Rate API (GET):<br/>
+###### 1- Fetch Rate API (GET):
 http://localhost:8080/api/v1/rms/rate/1 <br/>
 Response:
 {
@@ -42,7 +42,7 @@ Response:
     }
 }
 
-###### 2- Add Rate API (POST):<br/>
+###### 2- Add Rate API (POST):
 http://localhost:8080/api/v1/rms/rate <br/>
 Request Body:
 {
@@ -59,7 +59,7 @@ Respone:
     "amount": 5000
 }
 
-###### 3- Update Rate API (PUT):<br/>
+###### 3- Update Rate API (PUT):
 http://localhost:8080/api/v1/rms/rate <br/>
 Request Body:
 {
@@ -77,11 +77,11 @@ Respone:
     "amount": 7000
 }
 
-###### 4- Delete Rate API (DELETE):<br/>
-http://localhost:8080/api/v1/rms/rate/4 <br/>
+###### 4- Delete Rate API (DELETE):
+http://localhost:8080/api/v1/rms/rate/4
 
 ###### 5- Fetch All Rates (GET)<br/>
-http://localhost:8080/api/v1/rms/rates <br/>
+http://localhost:8080/api/v1/rms/rates
 
 Response:
 [
