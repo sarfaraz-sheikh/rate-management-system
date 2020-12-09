@@ -3,7 +3,7 @@
 Rate Management System
 
 # Features:
-1- Ouath2 Authentication using Okta
+1- Ouath2 Authentication using Okta<br/>
 2- Spring Hystrix 
 3- JUnit (Mockito, MockMvc, Mocks, Juniper)
 4- Spring Actuator (info, health and metrics)
