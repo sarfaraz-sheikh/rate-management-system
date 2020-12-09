@@ -4,15 +4,15 @@
 Logistics company DPWorld charges customers for shipping goods. Charges are calculated based on rate amt and surcharge amt.
 
 ## Features:
-1- Ouath2 Authentication using Okta<br/>
-2- Spring Hystrix<br/> 
+1- Spring Boot Ouath2 Authentication using Okta<br/>
+2- Spring Boot Netflix Hystrix<br/> 
 3- JUnit (Mockito, MockMvc, Mocks, Juniper) <br/>
-4- Spring Actuator (info, health and metrics) <br/>
+4- Spring Boot Actuator (info, health and metrics) <br/>
 5- Spring Data JPA: H2 Database <br/>
 6- Spring Logback for Logging <br/>
 7- Custom Exception handling (@ControllerAdvice) <br/>
 8- Spring Security (oauth2ResourceServer) + Method level security <br/>
-9- HTTP/Restful with request/response in JSON format. <br/>
+9- Spring RestController: HTTP/Restful with request/response in JSON format. <br/>
 10- RestTemplate to fetch Surcharge <br/>
 
 URL to generate (Authorization) Bearer token for API calls: <br/>
