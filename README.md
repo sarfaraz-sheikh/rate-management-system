@@ -80,7 +80,7 @@ Respone:
 ###### 4- Delete Rate API (DELETE):
 http://localhost:8080/api/v1/rms/rate/4
 
-###### 5- Fetch All Rates (GET)<br/>
+###### 5- Fetch All Rates (GET)
 http://localhost:8080/api/v1/rms/rates
 
 Response:
